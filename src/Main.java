@@ -24,12 +24,6 @@ public class Main {
 
         System.out.println(sz);
 
-
-
-
-
-
-
         for (int i = 0; i < args.length; i++) {
             int a = Integer.parseInt(args[i]);
             arr.add(a);
@@ -39,7 +33,6 @@ public class Main {
         doesContain(arr, 11);
         ifContainsDelete(arr);
         doesContainLists(arr, list2);
-
 
         }
 
